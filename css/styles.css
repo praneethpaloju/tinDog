@@ -1,0 +1,175 @@
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Container Section */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Title Section */
+
+.pricing-h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.big-heading{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+#title .container-fluid{
+    text-align: left;
+    padding: 4% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+
+.dog-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+.download-button {
+    margin: 3% 1.5%;
+}
+
+/* Features */
+
+#features{
+    position: relative;
+}
+
+.feature-title{
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 16%;
+    border-radius: 100%;
+    padding: 2%;
+}
+
+/* Press Section */
+
+#press{
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.payment{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card-bd{
+    padding-bottom: 57px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    #dog-pic{
+    text-align: center;
+    padding-top: 20px;
+    transform: rotate(0);
+    position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+
+/* Contact Section */
+
+.social-icons{
+    display: inline-block;
+    padding: 10px 10px;
+}
